@@ -1,0 +1,90 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+    height:100vh;
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png')  
+  }
+  
+  /* Container for the content */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(238, 220, 13, 0.9);
+    border-radius: 15px;
+    box-shadow: 2 4px 8px rgba(243, 102, 102, 0.1);
+    
+  }
+  
+  /* Header styles */
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Textarea styles */
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  button {
+    background: #08de89;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  /* Notes list styles */
+  #notes-list {
+    margin-top: 20px;
+  }
+  
+  .note {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #c8b0b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-btn {
+    background: #f16252;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
+  
